@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CRIEPLAY" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Gabriel Reis" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5dfa4e7a7e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/variables.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/componentes/header.css">
+    <link rel="stylesheet" href="CSS/componentes/banner.css">
+    <link rel="stylesheet" href="CSS/componentes/carrousel.css">
+    <link rel="stylesheet" href="CSS/componentes/footer.css">
+
+    <title>CriePlay</title>
+</head>
+
+<body>
+    <header class="headerContainer">
+        <img class="headerlogo" src="/imagens/logo.png" alt="CriePlay">
+        <nav class="headerMenu">
+            <a class="headerNavItem headerNavItem--active" href="#">
+                <i class="fa-solid fa-igloo"></i>
+                <span>Inicio</span>
+            </a>
+            <a class="headerNavItem" href="#">
+                <i class="fa-solid fa-film"></i>
+                <span>Filmes</span>
+            </a>
+            <a class="headerNavItem" href="#">
+                <i class="fa-solid fa-clapperboard"></i>
+                <span>Séries</span>
+            </a>
+            <a class="headerNavItem" href="#">
+                <i class="fa-solid fa-tv"></i>
+                <span>Ao Vivo</span>
+            </a>
+        </nav>
+        <a class="button" href="#">Entrar</a>
+    </header>
+
+    <div class="banner">
+        <div class="bannerContainer">
+            <h1 class="bannertitulo">
+                Filmes, Séries e muito mais. <br>
+                Sem limites.
+            </h1>
+            <h5 class="bannersubtitulo">
+                Assista onde quiser. Cancele quando quiser.
+            </h5>
+            <form class="inputGroup">
+                <input class="bannerInput" id="email" name="email" placeholder="Insira seu e-mail">
+                <button class="button buttonXL">Assinar</button>
+            </form>
+        </div>
+    </div>
+
+    <section>
+        <div class="carrousel">
+            <div class="carrouselHeaderContainer">
+                <div>
+                    <span class="carrouselHeaderTitle">Populares</span>
+                </div>
+                <div class="carrouserSeeAll">
+                    <a href="#">Ver Todos</a>
+                    <i class="fa-solid fa-circle-arrow-right icon"></i>
+                </div>
+            </div>
+
+            <div class="carrouselTracker">
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/campeao.jpg" alt="Campeao">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/casamento.jpg" alt="Casamento">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/desaparecidos.jpg" alt="Desaparecidos">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/noite-jogos.jpg" alt="Noite de Jogos">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/nova-mulher.jpg" alt="Nova Mulher">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/pedaco.jpg" alt="Pedaço">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/preco-noiva.jpg" alt="Preço noiva">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/tira.jpg" alt="Um tira em apuros 4">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/tudo-em-familia.jpg" alt="Tudo em familia">
+                </div>
+
+                <div class="cover">
+                    <img class="coverImage" src="imagens/novidades/vikings.jpg" alt="Vikings">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="carrousel">
+            <div class="carrouselHeaderContainer">
+                <div>
+                    <span class="carrouselHeaderTitle">Filmes</span>
+                </div>
+                <div class="carrouserSeeAll">
+                    <a href="#">Ver Todos</a>
+                    <i class="fa-solid fa-circle-arrow-right icon"></i>
+                </div>
+            </div>
+
+            <div class="carrouselTracker">
+
+                <div class="cover coverFilme coverXL">
+                    <img class="coverImage " src="imagens/filmes/caca-fantasmas.jpg" alt="Os Caça-Fantasmas">
+                    <span>Os Caça-Fantasmas</span>   
+                </div>
+
+                <div class="cover coverFilme coverXL">
+                    <img class="coverImage" src="imagens/filmes/celine.jpg" alt="Eu Sou Celine Dion">
+                    <span>Eu Sou Celine Dion</span>  
+                </div>
+
+                <div class="cover coverFilme coverXL">
+                    <img class="coverImage" src="imagens/filmes/mamonas.jpg" alt="Mamonas Assasinas">
+                    <span>Mamonas Assasinas</span>  
+                </div>
+
+                <div class="cover coverFilme coverXL">
+                    <img class="coverImage" src="imagens/filmes/transformers.jpg" alt="Transformers">
+                    <span>Transformers</span>  
+                </div>
+
+                <div class="cover coverFilme coverXL">
+                    <img class="coverImage" src="imagens/filmes/tres-mosqueteiros.jpg" alt="Os Tres Mosqueteiros">
+                    <span>Os Tres Mosqueteiros</span>  
+                </div>
+
+            </div>
+        </div>
+
+        <div class="carrousel">
+            <div class="carrouselHeaderContainer">
+                <div>
+                    <span class="carrouselHeaderTitle">Animes</span>
+                </div>
+                <div class="carrouserSeeAll">
+                    <a href="#">Ver Todos</a>
+                    <i class="fa-solid fa-circle-arrow-right icon"></i>
+                </div>
+            </div>
+
+            <div class="carrouselTracker">
+
+                <div class="cover coverAnimes coverXL">
+                    <img class="coverImage " src="imagens/animes/banana-fishman.jpg" alt="Banana Fishman">
+                    <span>Banana Fishman</span>   
+                </div>
+
+                <div class="cover coverAnimes coverXL">
+                    <img class="coverImage" src="imagens/animes/cdz.jpg" alt="Cavaleiros dos Zodíacos">
+                    <span>Cavaleiros dos Zodíacos</span>  
+                </div>
+
+                <div class="cover coverAnimes coverXL">
+                    <img class="coverImage" src="imagens/animes/dororo.jpg" alt="Dororo">
+                    <span>Dororo</span>  
+                </div>
+
+                <div class="cover coverAnimes coverXL">
+                    <img class="coverImage" src="imagens/animes/inuyasha.png" alt="Inuyasha">
+                    <span>Inuyasha</span>  
+                </div>
+
+                <div class="cover coverAnimes coverXL">
+                    <img class="coverImage" src="imagens/animes/onepiece.jpg" alt="Onepiece">
+                    <span>Onepiece</span>  
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <img class="headerlogo" src="/imagens/logo.png" alt="CriePlay">
+        </div>
+
+        <nav class="footerNav">
+            <a href="#">Feedbabck</a>
+            <a href="#">Ajuda</a>
+            <a href="#">FAQ</a>
+        </nav>
+
+        <span>
+            &copy; 2024 Todos direitos reservavdos
+        </span>
+    </footer>
+
+</body>
+
+</html>
