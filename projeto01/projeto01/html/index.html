@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto I - Meu Game</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div>
+          <span class="logo">meu</span>
+          <span class="text-blue logo-color">game</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#orcamento">Orçamentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="banner">
+      <!-- exemplo quebrando o layout -->
+      <img src="../assets/banner.png" alt="Banner" class="banner" />
+    </section>
+
+    <!-- exemplo 1 -->
+    <section id="produtos">
+      <h3>nosso produtos</h3>
+      <table class="tabela-produtos">
+        <tr>
+          <td>
+            <img src="../assets/Foto_jogos.png" alt="Produto 1" />
+            <p>Jogos</p>
+          </td>
+          <td>
+            <img src="../assets/Foto_perfericos.png" alt="Produto 2" />
+            <p>Periféricos</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="../assets/Foto_consoles.png" alt="Produto 3" />
+            <p>Consoles</p>
+          </td>
+          <td>
+            <img src="../assets/Foto_actions.png" alt="Produto 4" />
+            <p>Figure Actions</p>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section id="sobre">
+      <table>
+        <tr>
+          <td>
+            <h2 class="text-blue">SOBRE NÓS</h2>
+            <p>
+              Bem-vindo à "Meu Game Brasil", sua loja especializada em tudo o
+              que os gamers e entusiastas da cultura geek adoram.
+            </p>
+            <p>
+              Aqui, oferecemos uma ampla seleção de jogos, periféricos de última
+              geração, consoles das principais marcas e colecionáveis
+              exclusivos, como figures action.
+            </p>
+            <p>
+              Nosso compromisso é proporcionar a você a melhor experiência de
+              compra, garantindo produtos de qualidade, atendimento
+              personalizado e a paixão que compartilhamos pelo universo dos
+              games.
+            </p>
+            <p>
+              Na "Meu Game Brasil", você encontra não apenas produtos, mas
+              também um espaço para explorar e celebrar sua paixão pelos jogos.
+            </p>
+            <p class="text-blue text">
+              Junte-se a nós e mergulhe neste mundo fascinante!
+            </p>
+          </td>
+          <td>
+            <img src="../assets/Fachada.png" alt="Produto 4" />
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section id="orcamento">
+      <h2>solicite um orçamento</h2>
+      <form action="">
+        <div class="form-section">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+        </div>
+        <div class="form-section">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form-section">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" />
+        </div>
+        <div class="form-section">
+          <label for="produto">Produto:</label>
+          <select name="produto" id="produto-select">
+            <option value="jogos">Jogos</option>
+            <option value="perifericos">Periféricos</option>
+            <option value="consoles">Consoles</option>
+            <option value="figure-actions">Figure Actions</option>
+          </select>
+        </div>
+
+        <div class="form-section">
+          <label for="anexo">Anexos</label>
+          <input type="file" id="anexo" name="anexo" />
+        </div>
+
+        <div class="form-section">
+          <label for="mensagem">Sua Mensagem:</label>
+          <textarea name="mensagem" id="mensagem" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <section id="contato">
+      <div>
+        <h2 class="text-blue">Contatos</h2>
+        <div>
+          <span>Ficou com alguma dúvida?</span>
+          <br />
+          <span>Entre em contato conosco ou venha nos visitar!</span>
+        </div>
+        <br />
+        <div>
+          <span href="tel:+5500999999999">(00) 99999-9999</span>
+          <br />
+          <span href="mailto:contato@meugamebr.com.br"
+            >contato@meugamebr.com.br</span
+          >
+        </div>
+        <br />
+        <div>
+          <span class="text-bold">Meu Game Brasil</span>
+          <br />
+          <span>Estrada sem nome, 1234</span>
+          <br />
+          <span>Bairro - Cidade - UF - CEP: 12345-678</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <span>© 2024 Meu Game Brasil. Todos os direitos reservados</span>
+        <br />
+        <span>Desenvolvido por CRIE_TI</span>
+      </div>
+    </footer>
+  </body>
+</html>
